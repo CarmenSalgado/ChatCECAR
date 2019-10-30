@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="606.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cecar.vista.VistaChatController">
+   <children>
+      <Pane layoutY="-3.0" prefHeight="628.0" prefWidth="606.0">
+         <children>
+            <Label layoutX="26.0" layoutY="21.0" prefHeight="17.0" prefWidth="247.0" text="Chat">
+               <font>
+                  <Font name="Segoe UI" size="25.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnEnviar" buttonType="RAISED" layoutX="532.0" layoutY="543.0" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: #4287f5;" text="Enviar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="txtMensaje" layoutX="15.0" layoutY="550.0" prefHeight="25.0" prefWidth="498.0" promptText="Escribe aquí tu mensaje" />
+            <JFXTextArea fx:id="areaConversacion" layoutX="15.0" layoutY="63.0" prefHeight="454.0" prefWidth="577.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
