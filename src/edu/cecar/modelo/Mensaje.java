@@ -7,12 +7,12 @@ package edu.cecar.modelo;
 
 /**
  *
- * @author 1099965188
+ * @author 1104427192
  */
 public class Mensaje {
     
-    byte [] multimedia;
-    String texto;
+    private byte [] multimedia;
+    private String texto;
 
     public Mensaje(byte[] multimedia, String texto) {
         this.multimedia = multimedia;
@@ -34,6 +34,8 @@ public class Mensaje {
     public void setTexto(String texto) {
         this.texto = texto;
     }
+
+   
     
     
     
